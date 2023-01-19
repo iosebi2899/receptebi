@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "marwyvi";
+  src: url("../fonts/GLEreklesStamba-Regular.eot");
+  src: url("../fonts/GLEreklesStamba-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GLEreklesStamba-Regular.woff2") format("woff2"),
+    url("../fonts/GLEreklesStamba-Regular.woff") format("woff"),
+    url("../fonts/GLEreklesStamba-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
