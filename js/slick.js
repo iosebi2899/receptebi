@@ -6,20 +6,22 @@ export const initializeSlick = (className) => {
       autoplaySpeed: 2000,
       centerPadding: "120px",
       slidesToShow: 3,
+      dots: true,
       responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 980,
           settings: {
             arrows: false,
             centerMode: true,
             centerPadding: "40px",
-            slidesToShow: 3,
+            slidesToShow: 2,
           },
         },
         {
-          breakpoint: 480,
+          breakpoint: 720,
           settings: {
             arrows: false,
+            dots: false,
             centerMode: true,
             centerPadding: "40px",
             slidesToShow: 1,

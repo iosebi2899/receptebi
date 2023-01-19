@@ -1,6 +1,15 @@
 import { navigateToRecipe } from "./utils.js";
 import { API_BASE_URL, API_KEY } from "./constants.js";
 
+$(".burger-menu").click(function () {
+  $(this).toggleClass("menu-on");
+  $(".main-navigation").toggleClass("active");
+});
+$(".main-navigation li a").click(function () {
+  $(".main-navigation").removeClass("active");
+  $(".burger-menu").removeClass("menu-on");
+});
+
 document.addEventListener("DOMContentLoaded", async () => {
   const res = await fetch(
     `${API_BASE_URL}/recipes/random?number=20&tags=dessert&apiKey=${API_KEY}`
