@@ -404,6 +404,14 @@ main {
     display: block;
   }
 
+  .wide {
+    display: none !important;
+  }
+
+  .responsive {
+    display: block !important;
+  }
+
   .main-navigation {
     display: none;
   }
